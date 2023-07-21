@@ -1,0 +1,343 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-image: url(../diploma/img/fon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.tree {
+    margin-top: 150px;
+    margin-left: 900px;
+    position: absolute;
+}
+.apple {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(198, 19, 19);
+    border: 3px solid;
+    border-color: rgb(89, 6, 6);
+    border-radius: 950px;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 1050px;
+}
+.apple1 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(198, 19, 19);
+    border: 3px solid;
+    border-color: rgb(89, 6, 6);
+    border-radius: 950px;
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 1300px;
+
+}
+.apple2 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(198, 19, 19);
+    border: 3px solid;
+    border-color: rgb(89, 6, 6);
+    border-radius: 950px;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 1180px;
+}
+.house {
+    margin-top: 300px;
+    margin-left: 15px;
+    position: absolute;
+}
+.cloud {
+    margin-top: 40px;
+    margin-left: 15px;
+    position: absolute;
+
+}
+.cloud2 {
+    margin-top: -40px;
+    margin-left: 1050px;
+    position: absolute;
+}
+.flowers {
+    margin-top: 530px;
+    position: absolute;
+}
+.face {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 206, 137);
+    border: 5px solid;
+    border-color: rgb(211, 170, 107);
+    border-radius: 950px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 200px;
+
+}
+.fon {
+    position: absolute;
+}
+.check1 {
+    width: 50px;
+    height: 20px;
+    background-color: rgb(255, 123, 145);
+    border: 5px solid;
+    border-color: rgb(249, 150, 159);
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.check2 {
+    width: 50px;
+    height: 20px;
+    background-color: rgb(255, 123, 145);
+    border: 5px solid;
+    border-color: rgb(249, 150, 159);
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 130px;
+    border-radius: 5px;
+}
+.eye1 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(110, 29, 29);
+    border: 6px solid;
+    border-color:rgb(255, 245, 249);
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 10px;
+    border-radius: 950px;
+}
+.eye2 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(110, 29, 29);
+    border: 6px solid;
+    border-color: rgb(255, 250, 252);
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 130px;
+    border-radius: 950px;
+}
+.ieye1 {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 0, 0);
+    border: 6px solid;
+    border-color:rgb(34, 5, 17);
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 950px;
+}
+.ieye2 {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 0, 0);
+    border: 6px solid;
+    border-color: rgb(29, 6, 15);
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 9px;
+    border-radius: 950px;
+}
+.nose {
+    width: 50px;
+    height: 35px;
+    background-color: rgb(241, 152, 74);
+    border: 6px solid;
+    border-color: rgb(255, 190, 69);
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 70px;
+    border-radius: 950px;
+}
+.mouse {
+    width: 50px;
+    height: 20px;
+    background-color: rgb(220, 67, 67);
+    border: 6px solid;
+    border-color: rgb(194, 91, 91);
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 70px;
+    border-radius: 950px;
+}
+.n1 {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(186, 89, 24);
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 3px;
+    border-radius: 950px;
+}
+.n2 {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(186, 89, 24);
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 25px;
+    border-radius: 950px;
+}
+.neck {
+    width: 60px;
+    height: 15px;
+    background-color: rgb(219, 172, 105);
+    border: 5px solid;
+    border-color: rgb(211, 170, 107);
+    position: absolute;
+    margin-top: 187px;
+    margin-left: 65px;
+    border-radius: 5px;
+}
+.telo {
+    width: 160px;
+    height: 120px;
+    background-color: rgb(255, 148, 25);
+    border: 15px solid;
+    border-color: rgb(229, 114, 56);
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+.leg1 {
+    width: 50px;
+    height: 150px;
+    background-color: rgb(95, 43, 15);
+    border: 5px solid;
+    border-color: rgb(78, 28, 3);
+    position: absolute;
+    margin-top: 318px;
+    margin-left: 35px;
+    border-radius: 5px;
+}
+.leg2 {
+    width: 50px;
+    height: 150px;
+    background-color: rgb(95, 43, 15);
+    border: 5px solid;
+    border-color: rgb(78, 28, 3);
+    position: absolute;
+    margin-top: 318px;
+    margin-left: 110px;
+    border-radius: 5px;
+}
+.knopka {
+    width: 110px;
+    height: 40px;
+    background-color: rgb(255, 204, 1);
+    border: 5px solid;
+    border-color: rgb(124, 105, 96);
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 12px;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+.knopka:hover {
+    width: 110px;
+    height: 40px;
+    background-color: rgb(21, 116, 35);
+    border: 5px solid;
+    border-color: rgb(124, 105, 96);
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 12px;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+.knopka:active {
+    background-color: rgb(80, 39, 195);
+}
+
+.feet {
+    width: 50px;
+    height: 30px;
+    background-color: rgb(187, 79, 79);
+    border: 7px solid;
+    border-color: rgb(152, 67, 67);
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 0px;
+    border-radius: 10px;
+}
+.feet2 {
+    width: 50px;
+    height: 30px;
+    background-color: rgb(187, 79, 79);
+    border: 7px solid;
+    border-color: rgb(152, 67, 67);
+    position: absolute;
+    margin-top: 120px;
+    margin-left: -10px;
+    border-radius: 10px;
+}
+.hand1 {
+    width: 30px;
+    height: 100px;
+    background-color: rgb(255, 148, 25);
+    border: 10px solid;
+    border-color: rgb(229, 114, 56);
+    position: absolute;
+    margin-top: 205px;
+    margin-left: -10px;
+    border-radius: 15px;
+}
+.hand2 {
+    width: 30px;
+    height: 100px;
+    background-color: rgb(255, 148, 25);
+    border: 10px solid;
+    border-color: rgb(229, 114, 56);
+    position: absolute;
+    margin-top: 205px;
+    margin-left: 170px;
+    border-radius: 15px;
+}
+.palm1 {
+    width: 25px;
+    height: 35px;
+    background-color: rgb(255, 206, 137);
+    border: 5px solid;
+    border-color: rgb(211, 170, 107);
+    position: absolute;
+    margin-top: 85px;
+    margin-left: -10px;
+    border-radius: 20px;
+}
+.palm2 {
+    width: 25px;
+    height: 35px;
+    background-color: rgb(255, 206, 137);
+    border: 5px solid;
+    border-color: rgb(211, 170, 107);
+    position: absolute;
+    margin-top: 85px;
+    margin-left: -5px;
+    border-radius: 20px;
+}
+#hiKnopka {
+    width: 500px;
+    height: 140px;
+    background-color: blanchedalmond;
+    border: 10px solid;
+    border-color: rgb(211, 107, 164);
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 450px;
+    border-radius: 20px;
+    text-align: center;
+    -webkit-text-fill-color: rgb(98, 0, 190);
+    font-size: 1.5rem;
+    visibility: hidden;
+}

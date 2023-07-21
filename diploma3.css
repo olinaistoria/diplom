@@ -1,0 +1,69 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-image: url(../diploma/img/fon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.game{
+    background-color: rgb(119, 125, 119);
+    position: relative;
+    top: 5px;
+    width: 500px;
+    height: 550px;
+    margin:auto;
+    border: 10px solid rgb(70, 63, 67);
+}
+.apple{
+    visibility: hidden;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(198, 19, 19);
+    border: 3px solid;
+    border-color: rgb(89, 6, 6);
+    border-radius: 950px;
+    position: relative;
+}
+#apple1{
+    visibility: visible;
+}
+.animate{
+    animation: side 4s infinite linear;
+}
+@keyframes side{
+    0%{left:0px}
+    50%{left:400px}
+    100%{left:0px}
+}
+button{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    border: 5px solid rgb(164, 137, 137);
+    border-radius: 10px;
+    text-align: center;
+    margin: 1rem auto;
+    display: block;
+}
+#btn{
+    background-color: rgb(255, 120, 219);
+}
+#btn:hover, #restart:hover{
+    background-color: rgb(255, 255, 37); 
+}
+#btn:active {
+    background-color: rgb(255, 2, 175)
+}
+#restart:active {
+    background-color: rgb(13, 169, 226);
+}
+#restart{
+    background-color: rgb(208, 73, 181);
+    display: none;
+}
