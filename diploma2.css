@@ -16,30 +16,46 @@ body {
     position: relative;
     top: 5px;
     width: 500px;
-    height: 550px;
+    height: 200px;
     margin:auto;
     border: 10px solid rgb(70, 63, 67);
 }
-.apple{
-    visibility: hidden;
-    width: 100px;
-    height: 100px;
-    background-color: rgb(198, 19, 19);
-    border: 3px solid;
+#character{
+    width: 20px;
+    height: 40px;
+    background-color: rgb(53, 175, 37);
+    position:relative;
+    top: 150px;
+    border-radius: 550px;
     border-color: rgb(89, 6, 6);
-    border-radius: 950px;
-    position: relative;
-}
-#apple1{
-    visibility: visible;
+    border: 3px solid;
 }
 .animate{
-    animation: side 4s infinite linear;
+    animation: jump 0.8s linear;
 }
-@keyframes side{
-    0%{left:0px}
-    50%{left:400px}
-    100%{left:0px}
+@keyframes jump{
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
+}
+
+#block{
+    background-color: rgb(46, 2, 35);
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 130px;
+    left: 500px;
+    animation: block 1s infinite linear;
+    border-radius: 950px;
+}
+@keyframes block{
+    0%{left: 500px}
+    100%{left: -20px}
+}
+p{
+    text-align: center;
 }
 button{
     font-family: 'Press Start 2P', cursive;
@@ -59,11 +75,4 @@ button{
 }
 #btn:active {
     background-color: rgb(255, 2, 175)
-}
-#restart:active {
-    background-color: rgb(13, 169, 226);
-}
-#restart{
-    background-color: rgb(208, 73, 181);
-    display: none;
 }

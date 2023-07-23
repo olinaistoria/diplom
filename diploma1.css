@@ -21,7 +21,15 @@ body {
     position: absolute;
     margin-top: 400px;
     margin-left: 1050px;
+    transform: translate3d(1rem, 15rem);
+    transition: all 2s ease;
 }
+.apple:hover {
+    background-color: rgb(255, 0, 0)30, 30;
+    border-color: rgb(223, 77, 77);
+    transform: translateY(200px);
+}
+
 .apple1 {
     width: 50px;
     height: 50px;
@@ -32,7 +40,13 @@ body {
     position: absolute;
     margin-top: 370px;
     margin-left: 1300px;
-
+    transform: translate3d(1rem, 10rem);
+    transition: all 1s ease;
+}
+.apple1:hover {
+    transform: scale(1.5);
+    background-color: rgb(255, 0, 0)30, 30;
+    border-color: rgb(223, 77, 77);
 }
 .apple2 {
     width: 50px;
@@ -44,6 +58,13 @@ body {
     position: absolute;
     margin-top: 250px;
     margin-left: 1180px;
+    transform: translate3d(1rem, 10rem, 20rem, 5rem);
+    transition: all 2s ease;
+}
+.apple2:hover {
+    transform: scale(1.5);
+    background-color: rgb(255, 0, 0)30, 30;
+    border-color: rgb(223, 77, 77);
 }
 .house {
     margin-top: 300px;
@@ -244,17 +265,8 @@ body {
     cursor: pointer;
 }
 .knopka:hover {
-    width: 110px;
-    height: 40px;
     background-color: rgb(21, 116, 35);
-    border: 5px solid;
     border-color: rgb(124, 105, 96);
-    position: absolute;
-    margin-top: 25px;
-    margin-left: 12px;
-    border-radius: 15px;
-    text-align: center;
-    cursor: pointer;
 }
 .knopka:active {
     background-color: rgb(80, 39, 195);
@@ -326,7 +338,7 @@ body {
     margin-left: -5px;
     border-radius: 20px;
 }
-#hiKnopka {
+.hi {
     width: 500px;
     height: 140px;
     background-color: blanchedalmond;
@@ -339,5 +351,4 @@ body {
     text-align: center;
     -webkit-text-fill-color: rgb(98, 0, 190);
     font-size: 1.5rem;
-    visibility: hidden;
 }
